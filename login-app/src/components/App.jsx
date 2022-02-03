@@ -1,11 +1,15 @@
 import React from "react";
-import Login from "./Login";
 
-var isLoggedIn = false;
+
+
 
 function App() {
 	return (
-		<div className="container">{isLoggedIn ? <h1>Hello</h1> : <Login />}</div>
+		<div className="container">
+	 <h1>Hello</h1>
+	 <input type = "text" placeholder="What's your name" />
+	 <button onClick={}></button>
+	  </div>
 	);
 }
 
